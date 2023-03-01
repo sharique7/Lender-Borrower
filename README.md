@@ -1,8 +1,3 @@
-# Lender-Borrower
-CRUD operations Nodejs &amp; Mongodb
-
-
-
 # laail-networks
 
 ## Problem Statement
@@ -95,7 +90,7 @@ open terminal and run the following commands
   PORT=3000
 
   # Database
-  DATABASE_URL=mongodb://127.0.0.1:27017
+  DATABASE_URL=mongodb://localhost:27017
   DATABASE_NAME=laaildb
   DATABASE_USER=developer
   DATABASE_PASSWORD=password

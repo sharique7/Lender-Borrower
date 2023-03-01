@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "63b043650604d588afaa34bb"
+  },
+  "name": "test user 1",
+  "mobile": "1234567890",
+  "type": "lender",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b0437c0604d588afaa34bd"
+  },
+  "name": "test user 2",
+  "mobile": "1234567890",
+  "type": "borrower",
+  "__v": 0
+}]

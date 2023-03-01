@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const usersControllers_1 = require("../controllers/usersControllers");
+const contractsControllers_1 = require("../controllers/contractsControllers");
+const router = (0, express_1.Router)();
+router.get("/users", usersControllers_1.getUser);
+router.post("/users", usersControllers_1.createUser);
+router.get("/lender-loan-amount/:n", contractsControllers_1.getLenderLoanAmount);
+router.get("/lender-loan-count/:n", contractsControllers_1.getLenderLoanCount);
+router.post("/contracts", contractsControllers_1.createContracts);
+exports.default = router;
